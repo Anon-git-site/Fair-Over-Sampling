@@ -15,12 +15,13 @@ The orginal datasets can be found at:
 - https://archive.ics.uci.edu/ml/datasets/Statlog+%28German+Credit+Data%29
 - https://github.com/propublica/compas-analysis
 ## How to Run Fair Over-Sampling
-We have included a version of Fair Over-Sampling (FOS) that is intended to be used with standard classifiers (e.g., scikit learn Support Vector Machines or Logistic Regression).  The main file for running FOS is FOS_main.py.  
+We have included a version of Fair Over-Sampling (FOS) that is intended to be used with standard classifiers (e.g., scikit learn's Support Vector Machines or Logistic Regression).  The main file for running FOS is FOS_main.py.  
 The basic steps to run FOS are:
-1. Select the AIF360 dataset that you would like to run (e.g., Adult Census, German Credit, or Compas) by commenting or uncommenting the respective lines.
+1. Select the AIF360 dataset that you would like to run (e.g., Adult Census, German Credit, or Compas) by commenting or uncommenting the respective lines in FOS_main.py.
 2. Select a classifier (e.g., SVM or LG).
-3. Input a link to the respective data folder that is saved on your local machine
-4. Run the file.
+3. Input a link to the respective data folder that is saved on your local machine.
+4. Run the file (FOS_main.py).
+
 Related python files are:
 1. Fair_OS.py contains the FOS algorithm.
 2. common_utils.py generates useful metrics, including fair utility.
